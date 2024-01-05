@@ -33,13 +33,15 @@ function disableall(){
         box.disabled=true;
     })
 }
+
+let k=document.querySelector("#message");
 var checkforwinner=()=>{
     for(let i=0;i<win.length;i++){
         let pos1=win[i][0],pos2=win[i][1],pos3=win[i][2];
         let posval1=boxes[pos1].innerText;
         let posval2=boxes[pos2].innerText;
         let posval3=boxes[pos3].innerText;
-        let k=document.querySelector("#message");
+        
         if(c==9){
             disableall();
             k.innerText='Draw, PlayAgain!'
@@ -60,6 +62,7 @@ var newgame=()=>{
         box.disabled=false;
         box.innerText='';
     })
+    k.innerText='';
     c=0;
 
 }
