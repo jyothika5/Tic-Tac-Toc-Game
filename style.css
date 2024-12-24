@@ -3,7 +3,7 @@
     
 }
 body{
-    background-color: rgb(3, 101, 63);
+    background-color: rgb(127, 53, 177);
 }
 .heading{
     color: white;
@@ -30,7 +30,7 @@ body{
     color: black;
 }
 .newgame{
-    background-color: aquamarine;
+    background-color: rgb(206, 162, 209);
     border-radius: 2vmin;
     margin: 10px auto;
     display: block;
@@ -42,3 +42,6 @@ h1{
     color: white;
     text-align: center;
 }
+
+    
+   
